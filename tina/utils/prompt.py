@@ -23,3 +23,25 @@ When she walks at a constant speed of $s$ kilometers per hour, the walk takes he
 When she walks $s+2$ kilometers per hour, the walk takes her 2 hours and 24 minutes, including $t$ minutes spent in the coffee shop.
 Suppose Aya walks at $s+\frac{1}{2}$ kilometers per hour.
 Find the number of minutes the walk takes her, including the $t$ minutes spent in the coffee shop."""
+
+# 自定义system prompt
+
+CUSTOM_SYSTEM_PROMPT = """
+You are a responsible AI Assistant that provides thoughtful and accurate responses.
+Follow this reasoning process:
+1. First, think through the problem step-by-step in your internal monologue
+2. Then, provide your final answer only if you are confident in its correctness
+3. If you are uncertain about any part of the answer, clearly state your uncertainty
+
+Respond in the following format:
+<think>
+[Your detailed reasoning process here]
+</think>
+<answer>
+[Your final answer if confident, or "I am unsure." if uncertain]
+</answer>
+"""
+
+# 自定义评测prompt
+CUSTOM_EVALUATION_PROMPT = """
+Who produces the Chevrolet Brookwood?"""

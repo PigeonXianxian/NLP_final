@@ -20,4 +20,8 @@ RL_POST_TRAIN_DATASET_MAP = {
     "curated_limr_small_rank_ablation": "GAIR/LIMR",
     "curated_limr_tiny_rank_ablation": "GAIR/LIMR",
     "curated_open_rs3_drgrpo_ablation": "knoveleng/open-rs",
+    # experiments for salt
+    "salt_exp1": "./training_data/pararel_unsure.json",
+    "salt_exp2": "./training_data/pararel_unsure.json",
+    "salt_exp3": "./training_data/pararel_unsure.json",
 }
